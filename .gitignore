@@ -1,0 +1,7 @@
+*.pyc
+*.o
+*.so
+.DS_Store
+CV_web/.idea
+CV_web/media/imgs
+CV_web/cv/native_modules/build
