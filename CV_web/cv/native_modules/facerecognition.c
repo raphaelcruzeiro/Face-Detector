@@ -51,8 +51,8 @@ face_detect(PyObject *self, PyObject *args)
 
     IplImage* frame;
 
-    char *file = "/Users/raphaelcruzeiro/Documents/OpenCV-2.3.0/"
-        "data/haarcascades/haarcascade_frontalface_alt.xml";
+    char *file = "/usr/local/share/opencv/"
+        "/haarcascades/haarcascade_frontalface_alt.xml";
 
     cascade = (CvHaarClassifierCascade*)cvLoad(file, 0, 0, 0);
     storage = cvCreateMemStorage(0);
